@@ -2,7 +2,7 @@
 
 ## Project
 
-This project demonstrates the usage of the main concepts of Domain-Driven Design. Here we implemented a test suite considering a set operations with entities using sqlite3 memory database throught sequelize.
+This project demonstrates the usage of the main concepts of Domain-Driven Design. Here we implemented a test suite considering a set operations with entities using sqlite3 memory database throught sequelize and domain events.
 
 ## Entities
 
@@ -24,6 +24,10 @@ Order service and Product service.
 ## Repositories
 
 Customer, Order and Product.
+
+## Domain Events
+
+Customer service
 
 ### 1. Configuring the project
 
