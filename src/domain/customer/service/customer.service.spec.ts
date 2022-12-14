@@ -1,7 +1,7 @@
 import CustomerService from "./customer.service";
 import Customer from '../entity/customer';
-import Address from "../entity/address";
-import CustomerModel from '../../infrastructure/db/sequelize/model/customer.model';
+import Address from "../value-object/address";
+import CustomerModel from '../../../infrastructure/db/sequelize/model/customer.model';
 import {Sequelize} from "sequelize-typescript";
 
 describe("Customer service unit tests",() => {

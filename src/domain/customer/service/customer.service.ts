@@ -1,11 +1,11 @@
 import Customer from "../entity/customer";
-import EventDispatcher from "../event/@shared/event-dispatcher";
-import EnviaConsoleLog1Handler from "../event/customer/handler/envia-console-log1.handler";
-import EnviaConsoleLog2Handler from "../event/customer/handler/envia-console-log2.handler";
-import CustomerCreatedEvent from "../event/customer/customer-created.event";
-import CustomerRepository from "../../infrastructure/repository/customer.repository";
-import EnviaConsoleLogHandler from "../event/customer/handler/envia-console-log.handler";
-import CustomerAddressChangedEvent from "../event/customer/customer-address-changed.event";
+import EventDispatcher from "../../@shared/event/event-dispatcher";
+import EnviaConsoleLog1Handler from "../event/handler/envia-console-log1.handler";
+import EnviaConsoleLog2Handler from "../event/handler/envia-console-log2.handler";
+import CustomerCreatedEvent from "../event/customer-created.event";
+import CustomerRepository from "../../../infrastructure/repository/customer.repository";
+import EnviaConsoleLogHandler from "../event/handler/envia-console-log.handler";
+import CustomerAddressChangedEvent from "../event/customer-address-changed.event";
 
 export default class CustomerService {
     
