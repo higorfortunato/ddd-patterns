@@ -3,7 +3,7 @@ import EventDispatcher from "../../@shared/event/event-dispatcher";
 import EnviaConsoleLog1Handler from "../event/handler/envia-console-log1.handler";
 import EnviaConsoleLog2Handler from "../event/handler/envia-console-log2.handler";
 import CustomerCreatedEvent from "../event/customer-created.event";
-import CustomerRepository from "../../../infrastructure/repository/customer.repository";
+import CustomerRepository from "../../../infrastructure/customer/repository/sequelize/customer.repository";
 import EnviaConsoleLogHandler from "../event/handler/envia-console-log.handler";
 import CustomerAddressChangedEvent from "../event/customer-address-changed.event";
 
